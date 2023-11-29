@@ -50,6 +50,7 @@ p {
 
 .my-work {
   width: 300px;
+  min-width: 150px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -59,3 +60,15 @@ p {
   @apply bg-orange-600 bg-lime-950;
   display: flex;
 } */
+
+@media (max-width: 950px) {
+  .galery {
+    @apply grid-cols-2;
+  }
+}
+
+@media (max-width: 640px) {
+  .galery {
+    @apply grid-cols-1;
+  }
+}

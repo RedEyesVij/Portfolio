@@ -18,23 +18,14 @@ p {
   flex-direction: row;
   position: sticky;
   top: 0px;
-
-  /* height: 100px;
-  background-color: blue; */
-  /* @apply min-h-full;
-  @apply bg-lime-950; */
 }
 
 .nav-link {
+  @apply text-xl p-5;
   display: flex;
   flex-direction: row;
   justify-content: right;
   color: #ffedd5;
-  /* @apply text-sm; */
-  /* font-size: 0.875rem; */
-  /* 14px */
-  /* line-height: 1.25rem; */
-  /* 20px */
 }
 
 .main-text-container {
@@ -49,21 +40,27 @@ p {
 }
 
 .my-work {
+  @apply text-xl bg-amber-100;
   width: 300px;
   min-width: 150px;
   display: block;
   text-align: center;
   padding: 10px;
+  cursor: pointer;
+
 }
 
-/* .main-container {
-  @apply bg-orange-600 bg-lime-950;
-  display: flex;
-} */
+.image {
+  @apply p-5;
+}
 
 @media (max-width: 950px) {
   .galery {
     @apply grid-cols-2;
+  }
+
+  footer {
+    @apply text-[14px];
   }
 }
 

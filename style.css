@@ -50,7 +50,7 @@ p {
 }
 
 .my-work:hover {
-  box-shadow: 3px 5px 5px #02c435;
+  box-shadow: 3px 5px 5px #02c483;
   /* @apply hover: text-teal-600 active:text-teal-700; */
 }
 

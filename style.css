@@ -20,7 +20,7 @@ p {
 }
 
 .nav-link {
-  @apply text-xl p-5;
+  @apply text-xl p-4;
   display: flex;
   flex-direction: row;
   justify-content: right;
@@ -89,5 +89,9 @@ p {
 @media (max-width: 640px) {
   .galery {
     @apply grid-cols-1;
+  }
+
+  footer {
+    justify-content: center;
   }
 }
